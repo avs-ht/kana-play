@@ -1,0 +1,374 @@
+{
+    "hiragana": [
+        {
+            "char": "あ",
+            "pronunciation": "a"
+        },
+        {
+            "char": "い",
+            "pronunciation": "и"
+        },
+        {
+            "char": "う",
+            "pronunciation": "у"
+        },
+        {
+            "char": "え",
+            "pronunciation": "э"
+        },
+        {
+            "char": "お",
+            "pronunciation": "о"
+        },
+        {
+            "char": "か",
+            "pronunciation": "кa"
+        },
+        {
+            "char": "き",
+            "pronunciation": "ки"
+        },
+        {
+            "char": "く",
+            "pronunciation": "ку"
+        },
+        {
+            "char": "け",
+            "pronunciation": "кэ"
+        },        
+        {
+            "char": "こ",
+            "pronunciation": "ко"
+        },
+        {
+            "char": "さ",
+            "pronunciation": "сa"
+        },
+        {
+            "char": "し",
+            "pronunciation": "ши"
+        },
+        {
+            "char": "す",
+            "pronunciation": "су"
+        },
+        {
+            "char": "せ",
+            "pronunciation": "сэ"
+        },
+        {
+            "char": "そ",
+            "pronunciation": "со"
+        },
+        {
+            "char": "た",
+            "pronunciation": "тa"
+        },
+        {
+            "char": "ち",
+            "pronunciation": "чи"
+        },
+        {
+            "char": "つ",
+            "pronunciation": "цу"
+        },
+        {
+            "char": "て",
+            "pronunciation": "тэ"
+        },
+        {
+            "char": "と",
+            "pronunciation": "то"
+        },
+        {
+            "char": "な",
+            "pronunciation": "нa"
+        },
+        {
+            "char": "に",
+            "pronunciation": "ни"
+        },
+        {
+            "char": "ぬ",
+            "pronunciation": "ну"
+        },
+        {
+            "char": "ね",
+            "pronunciation": "нэ"
+        },
+        {
+            "char": "の",
+            "pronunciation": "но"
+        },
+        {
+            "char": "は",
+            "pronunciation": "хa"
+        },
+        {
+            "char": "ひ",
+            "pronunciation": "хи"
+        },
+        {
+            "char": "ふ",
+            "pronunciation": "фу/ху"
+        },
+        {
+            "char": "へ",
+            "pronunciation": "хэ"
+        },
+        {
+            "char": "ほ",
+            "pronunciation": "хо"
+        },
+        {
+            "char": "ま",
+            "pronunciation": "мa"
+        },
+        {
+            "char": "み",
+            "pronunciation": "ми"
+        },
+        {
+            "char": "む",
+            "pronunciation": "му"
+        },
+        {
+            "char": "め",
+            "pronunciation": "мэ"
+        },
+        {
+            "char": "も",
+            "pronunciation": "мо"
+        },
+        {
+            "char": "や",
+            "pronunciation": "я"
+        },
+        {
+            "char": "ゆ",
+            "pronunciation": "ю"
+        },
+        {
+            "char": "よ",
+            "pronunciation": "ё"
+        },
+        {
+            "char": "ら",
+            "pronunciation": "ра"
+        },
+        {
+            "char": "り",
+            "pronunciation": "ри"
+        },
+        {
+            "char": "る",
+            "pronunciation": "ру"
+        },
+        {
+            "char": "れ",
+            "pronunciation": "рэ"
+        },
+        {
+            "char": "ろ",
+            "pronunciation": "ро"
+        },
+        {
+            "char": "わ",
+            "pronunciation": "ва"
+        },
+        {
+            "char": "を",
+            "pronunciation": "во/о"
+        },
+        {
+            "char": "ん",
+            "pronunciation": "н"
+        }
+    ],
+    "katakana": [
+        {
+            "char": "ア",
+            "pronunciation": "a"
+        },
+        {
+            "char": "イ",
+            "pronunciation": "и"
+        },
+        {
+            "char": "ウ",
+            "pronunciation": "у"
+        },
+        {
+            "char": "エ",
+            "pronunciation": "э"
+        },
+        {
+            "char": "オ",
+            "pronunciation": "о"
+        },
+        {
+            "char": "カ",
+            "pronunciation": "кa"
+        },
+        {
+            "char": "キ",
+            "pronunciation": "ки"
+        },
+        {
+            "char": "ク",
+            "pronunciation": "ку"
+        },
+        {
+            "char": "ケ",
+            "pronunciation": "кэ"
+        },        
+        {
+            "char": "コ",
+            "pronunciation": "ко"
+        },
+        {
+            "char": "サ",
+            "pronunciation": "сa"
+        },
+        {
+            "char": "シ",
+            "pronunciation": "ши"
+        },
+        {
+            "char": "ス",
+            "pronunciation": "су"
+        },
+        {
+            "char": "セ",
+            "pronunciation": "сэ"
+        },
+        {
+            "char": "ソ",
+            "pronunciation": "со"
+        },
+        {
+            "char": "タ",
+            "pronunciation": "тa"
+        },
+        {
+            "char": "チ",
+            "pronunciation": "чи"
+        },
+        {
+            "char": "ツ",
+            "pronunciation": "цу"
+        },
+        {
+            "char": "テ",
+            "pronunciation": "тэ"
+        },
+        {
+            "char": "ト",
+            "pronunciation": "то"
+        },
+        {
+            "char": "ナ",
+            "pronunciation": "нa"
+        },
+        {
+            "char": "ニ ",
+            "pronunciation": "ни"
+        },
+        {
+            "char": "ヌ",
+            "pronunciation": "ну"
+        },
+        {
+            "char": "ネ",
+            "pronunciation": "нэ"
+        },
+        {
+            "char": "ノ",
+            "pronunciation": "но"
+        },
+        {
+            "char": "ハ",
+            "pronunciation": "хa"
+        },
+        {
+            "char": "ヒ",
+            "pronunciation": "хи"
+        },
+        {
+            "char": "フ",
+            "pronunciation": "фу/ху"
+        },
+        {
+            "char": "ヘ",
+            "pronunciation": "хэ"
+        },
+        {
+            "char": "ホ",
+            "pronunciation": "хо"
+        },
+        {
+            "char": "マ",
+            "pronunciation": "мa"
+        },
+        {
+            "char": "ミ",
+            "pronunciation": "ми"
+        },
+        {
+            "char": "ム",
+            "pronunciation": "му"
+        },
+        {
+            "char": "メ",
+            "pronunciation": "мэ"
+        },
+        {
+            "char": "モ",
+            "pronunciation": "мо"
+        },
+        {
+            "char": "ヤ",
+            "pronunciation": "я"
+        },
+        {
+            "char": "ユ",
+            "pronunciation": "ю"
+        },
+        {
+            "char": "ヨ",
+            "pronunciation": "ё"
+        },
+        {
+            "char": "ラ",
+            "pronunciation": "ра"
+        },
+        {
+            "char": "リ",
+            "pronunciation": "ри"
+        },
+        {
+            "char": "ル",
+            "pronunciation": "ру"
+        },
+        {
+            "char": "レ",
+            "pronunciation": "рэ"
+        },
+        {
+            "char": "ロ",
+            "pronunciation": "ро"
+        },
+        {
+            "char": "ワ",
+            "pronunciation": "ва"
+        },
+        {
+            "char": "ヲ",
+            "pronunciation": "во/о"
+        },
+        {
+            "char": "ン",
+            "pronunciation": "н"
+        }
+    ]
+}

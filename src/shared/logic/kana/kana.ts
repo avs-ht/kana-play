@@ -1,4 +1,5 @@
+import KANA from './kana.json'
 const kana = {
-    hiragana: [],
-    katakana: []
+    hiragana: KANA.hiragana,
+    katakana: KANA.katakana
 }
