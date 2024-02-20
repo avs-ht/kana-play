@@ -1,7 +1,5 @@
 import styles from './KanaButtons.module.scss'
 
-
-
 // TODO: Make kana.ts functions
 const KanaButtons = () => {
     return (
