@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "jotai": "^2.6.4",
+    "jotai-optics": "^0.3.2",
     "lucide-react": "^0.334.0",
+    "optics-ts": "^2.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.71.0"
