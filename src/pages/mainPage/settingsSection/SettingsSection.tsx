@@ -1,10 +1,17 @@
+import KanaAlphabet from "./kanaAlphabet/KanaAlphabet"
 import KanaButtons from "./kanaButtons/KanaButtons"
+import styles from './SettingsSection.module.scss'
 const SettingsSection = () => {
     return (
-        <div className="flex flex-col gap-4 items-center border-2 border-solid border-black w-10/12">
+        <>
+        <div className={styles.kanaButtonsContainer}>
             <KanaButtons/>
-            1
         </div>
+        <div className={styles.kanaContainer}>
+            <KanaAlphabet/>
+        </div>
+        </>
+
     )
 }
 
