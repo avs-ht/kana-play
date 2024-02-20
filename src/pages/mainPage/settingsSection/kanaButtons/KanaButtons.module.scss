@@ -1,0 +1,17 @@
+.buttons {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: x-large;
+    font-weight: 500;
+    >button {
+        border-bottom: 2px solid black;
+    }
+
+    > button:first-child {
+        border-right:  2px solid black;
+    }
+    > button:last-child {
+        grid-column: span 2;
+    }
+}
