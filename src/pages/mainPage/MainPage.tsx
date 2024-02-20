@@ -1,4 +1,4 @@
-import Header from "./Header"
+import Header from "./header/Header"
 import SettingsSection from "./settingsSection/SettingsSection"
 import StartButton from "./startButton/StartButton"
 

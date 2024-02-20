@@ -1,0 +1,41 @@
+.tooltipContainer {
+    display: inline-flex;
+    position: relative;
+}
+
+.tooltip {
+    position: absolute;
+    margin-left: 50%;
+    transform: translateY(50%);
+
+    width: 200px;
+    padding: 4px 6px;
+
+    justify-content: center;
+
+    background-color: #FF8E00;
+    color: #FFFFFF;
+
+    font-weight: 700 ;
+    font-size: 0.7rem;
+    text-align: center;
+    white-space: pre-line;
+
+    pointer-events: none;
+
+    border-radius: 7px;
+}
+
+.tooltip[data-appear="true"] {
+    animation: appear 0.3s;
+}
+
+@keyframes appear {
+    from {
+        display: flex;
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
