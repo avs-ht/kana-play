@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <header className={styles.header}>
             <h1 className={styles.title}>
-                <span className="text-5xl mr-2.5">Kana</span>
+                <span className={styles.titleText}>Kana</span>
                 <Gamepad2 className={styles.gamepad} size={48}/>
             </h1>
             <div className={styles.description}>Используя ниже данные <Tooltip textTooltip="Нажмите на слово и вас перебросит на страницу с объяснением настроек"><span className={styles.settingLink}>настройки</span></Tooltip>, выберите подоходящие символы и начните практику!</div>

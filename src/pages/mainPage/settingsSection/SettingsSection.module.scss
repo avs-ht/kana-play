@@ -4,6 +4,10 @@
     margin-bottom: 20px;
     border: 2px solid black;
     border-bottom: none;
+    @media (max-width: 768px) {
+        max-width: 85%;
+        
+    }
 }
 .kanaContainer {
     display: flex;

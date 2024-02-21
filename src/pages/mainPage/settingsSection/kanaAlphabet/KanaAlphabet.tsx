@@ -10,7 +10,7 @@ const KanaAlphabet = () => {
     return (
         <div className={styles.kanaAlphabetContainer}>
             <div className={styles.buttons}>
-                <button className={isDisplayedHiragana() ? "bg-white" : ""} onClick={() => setAplhabet("hiragana")}>Хирагана</button>
+                <button className={isDisplayedHiragana() ? "bg-white " : ""} onClick={() => setAplhabet("hiragana")}>Хирагана</button>
                 <button className={isDisplayedHiragana() ? "" : "bg-white"}onClick={() => setAplhabet("katakana")}>Катакана</button>
             </div>
             <div className={styles.kanaAlphabet}>
