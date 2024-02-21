@@ -1,6 +1,6 @@
 import kanaChoice from "./kanaChoice";
 
-export  interface KanaJSON {
+export interface KanaJSON {
     char: string;
     pronunciation: string;
 }

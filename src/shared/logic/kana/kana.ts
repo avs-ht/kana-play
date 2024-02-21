@@ -14,4 +14,14 @@ export const kanaLength: KanaLength = {
     katakana: kana[kanaChoice.Katakana].length
 }
 
+
+export const getJSONCharsByChars: (chars: Kana) => KanaJSON[] = (chars) => {
+    const JSONChars: KanaJSON[] = []
+
+    for (const [selectedKana, kanaChars] of Object.entries(chars)) {
+        JSONChars.push(...KANA[selectedKana as kanaChoice].filter(((el) => kanaChars.includes(el.char))))
+    }
+
+    return JSONChars
+}
 export default kana
