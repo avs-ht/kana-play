@@ -3,7 +3,7 @@ import kanaChoice from "../../../../../../shared/types/kanaChoice"
 import TemplateKanaButton from "./TemplateKanaButton"
 import styles from './TemplateAlphabet.module.scss'
 
-// TODO: Implement a function for positioning elements (big and small dispaly)
+// TODO: Implement a function for positioning elements (big and small display)
 const getGridPosFunc: (index : number, template?: {}) => {column: number, row: number} = (index) => {
     const pos = {
         column: 0,

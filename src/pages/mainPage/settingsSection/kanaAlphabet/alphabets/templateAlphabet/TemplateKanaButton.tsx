@@ -1,4 +1,4 @@
-import { Atom, atom, useAtom } from "jotai"
+import { atom, useAtom } from "jotai"
 import kanaChoice from "../../../../../../shared/types/kanaChoice"
 import { kanaAtoms } from "../../../kanaAtom"
 import { useMemo } from "react"
