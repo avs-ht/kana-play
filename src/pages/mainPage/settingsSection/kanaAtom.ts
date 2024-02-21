@@ -3,7 +3,7 @@ import { focusAtom } from "jotai-optics";
 import { Kana } from "../../../shared/types/kana";
 import kanaChoice from "../../../shared/types/kanaChoice";
 
-const kanaAtom = atom<Kana>({
+export const kanaAtom = atom<Kana>({
     hiragana: [],
     katakana: []
 })
