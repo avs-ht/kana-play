@@ -1,8 +1,9 @@
+import kanaChoice from "../../../../../shared/types/kanaChoice"
+import TemplateAlphabet from "./templateAlphabet/TemplateAlphabet"
+
 const Katakana = () => {
     return (
-        <>
-        katakana
-        </>
+        <TemplateAlphabet selectedKana={kanaChoice.Katakana}/>
     )
 }
 
