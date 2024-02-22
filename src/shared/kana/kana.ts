@@ -1,6 +1,6 @@
-import kanaChoice from '../../types/kanaChoice'
+import kanaChoice from '../types/kanaChoice'
 import KANA_IMPORT from './kana.json'
-import { Kana, KanaJSON, KanaLength } from '../../types/kana'
+import { Kana, KanaJSON, KanaLength } from '../types/kana'
 
 const getChars: (kanaJSON: KanaJSON[]) => string[] = kanaJSON => kanaJSON.map(moji => moji.char)
 

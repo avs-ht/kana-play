@@ -1,7 +1,7 @@
 import { useAtom } from 'jotai'
 import styles from './KanaButtons.module.scss'
 import { kanaAtoms } from '../kanaAtom'
-import kana, { kanaLength } from '../../../../shared/logic/kana/kana'
+import kana, { kanaLength } from '../../../../shared/kana/kana'
 import kanaChoice from '../../../../shared/types/kanaChoice'
 
 

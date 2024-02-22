@@ -1,4 +1,4 @@
-import kana from "../../../../../../shared/logic/kana/kana"
+import kana from "../../../../../../shared/kana/kana"
 import kanaChoice from "../../../../../../shared/types/kanaChoice"
 import TemplateKanaButton from "./TemplateKanaButton"
 import styles from './TemplateAlphabet.module.scss'

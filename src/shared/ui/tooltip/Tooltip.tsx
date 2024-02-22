@@ -7,6 +7,7 @@ interface TooltipProps {
 }
 const Tooltip: React.FC<TooltipProps> = ({children, textTooltip}) => {
     const [showToolTip, setShowToolTip] = useState(false);
+    const isWide = window.innerWidth >= 1024 ? true : false
 
     const onMouseEnterHandler = () => {
         setShowToolTip(true);
@@ -20,7 +21,7 @@ const Tooltip: React.FC<TooltipProps> = ({children, textTooltip}) => {
     return (
         <div className={styles.tooltipContainer} onMouseEnter={onMouseEnterHandler} onMouseLeave={onMouseLeaveHandler}>
             {children}
-            {showToolTip && <div className={styles.tooltip} data-appear={showToolTip}>{textTooltip}</div>}
+            {isWide && showToolTip && <div className={styles.tooltip} data-appear={showToolTip}>{textTooltip}</div>}
         </div>
     )
 }

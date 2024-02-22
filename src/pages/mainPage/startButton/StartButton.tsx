@@ -1,8 +1,8 @@
 import { atom, useAtom } from 'jotai'
 import styles from './StartButton.module.scss'
 import kanaAtom from '../settingsSection/kanaAtom'
-import { getJSONCharsByChars } from '../../../shared/logic/kana/kana'
-import { useContext, useState } from 'react'
+import { getJSONCharsByChars } from '../../../shared/kana/kana'
+import { useContext } from 'react'
 import { PlayContext } from '../../../app/PlayContext'
 import { Link } from 'react-router-dom'
 
