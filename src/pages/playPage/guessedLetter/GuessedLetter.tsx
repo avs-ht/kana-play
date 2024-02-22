@@ -1,7 +1,7 @@
 import { useContext, useState } from "react"
 import { PlayContext } from "../../../app/context"
 import Counter from "./counter/Counter"
-import ChooseButtons from "./chooseButton/ChooseButtons"
+import ChooseButtons from "./chooseButtons/ChooseButtons"
 
 const GuessedLetter = () => {
     const play = useContext(PlayContext)
@@ -10,13 +10,8 @@ const GuessedLetter = () => {
         <>
             <Counter />
             <div>{play.kana[randomNumber]?.char}</div>
-            <ChooseButtons char={play.kana[randomNumber]}/>
-            <button onClick={
-                () => {
-                    play.setKana([...play.kana.slice(0, randomNumber), ...play.kana.slice(randomNumber+1)])
-                    newRandom(Math.floor(Math.random() * (play.kana.length - 2)))
-                }
-            }>угадал</button>
+            <ChooseButtons char={play.kana[randomNumber]} setNewNumber={newRandom} extRandomNumber={randomNumber}/>
+
         </>
     )
 }

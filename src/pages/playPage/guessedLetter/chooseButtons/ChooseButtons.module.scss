@@ -1,0 +1,9 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    & > button {
+        padding: 5px;
+        background-color: wheat;
+    }
+}
