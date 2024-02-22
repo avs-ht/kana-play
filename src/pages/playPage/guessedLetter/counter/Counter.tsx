@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { PlayContext } from "../../../app/context"
+import { PlayContext } from "../../../../app/context"
 
 function conjugateString(n: number): string {
     let message = "Осталось " + n + " символов";

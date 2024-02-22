@@ -1,9 +1,10 @@
 import kanaChoice from '../../types/kanaChoice'
-import KANA from './kana.json'
+import KANA_IMPORT from './kana.json'
 import { Kana, KanaJSON, KanaLength } from '../../types/kana'
 
 const getChars: (kanaJSON: KanaJSON[]) => string[] = kanaJSON => kanaJSON.map(moji => moji.char)
 
+export const KANA = KANA_IMPORT
 const kana: Kana = {
     hiragana: getChars(KANA.hiragana),
     katakana: getChars(KANA.katakana)
@@ -24,4 +25,11 @@ export const getJSONCharsByChars: (chars: Kana) => KanaJSON[] = (chars) => {
 
     return JSONChars
 }
+
+export function getKana(): KanaJSON[] {
+    const kanaArr: KanaJSON[] = []
+    // TODO: get all kana
+    return kanaArr
+}
+
 export default kana
