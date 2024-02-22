@@ -9,7 +9,7 @@ const StartButton = () => {
     const [kana] = useAtom(kanaAtom)
     const play = useContext(PlayContext)
     return (
-        <Link to="/play" onClick={() => {
+        <Link to="/kana-play/play" onClick={() => {
             play.setPlay(true)
             const includedKana = getJSONCharsByChars(kana)
             play.setKana(includedKana)

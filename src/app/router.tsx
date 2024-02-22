@@ -4,11 +4,11 @@ import PlayPage from "../pages/playPage/PlayPage";
 
 const router = createBrowserRouter([
     {
-        path: '/',
+        path: '/kana-play',
         element: <MainPage/>
     },
     {
-        path: '/play',
+        path: '/kana-play/play',
         element: <PlayPage/>
     }
 ])

@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { PlayContext } from '../../../../app/context'
-import kana, { KANA } from '../../../../shared/logic/kana/kana'
+import { KANA } from '../../../../shared/logic/kana/kana'
 import { KanaJSON } from '../../../../shared/types/kana'
 import styles from './ChooseButtons.module.scss'
 

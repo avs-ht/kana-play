@@ -6,13 +6,16 @@ import styles from './TemplateAlphabet.module.scss'
 // TODO: Implement a function for positioning elements (big and small display)
 const getGridPosFunc: (index : number, template?: {}) => {column: number, row: number} = (index) => {
     const pos = {
-        column: 0,
+        column: index,
         row: 0
     }
+
+    pos.column = 0
     return pos
 }
 
 const TemplateAlphabet: React.FC<{selectedKana: kanaChoice}> = ({selectedKana}) => {
+    console.log(getGridPosFunc(0))
     return (
         <div className={styles.alphabet}>
             {
