@@ -4,7 +4,7 @@ import StartButton from "./startButton/StartButton"
 
 const MainPage = () => {
     return (
-        <div className="flex flex-col items-center w-full min-h-full overflow-hidden p-5">
+        <div className="flex flex-col items-center">
             <Header/>
             <SettingsSection/>
             <StartButton/>

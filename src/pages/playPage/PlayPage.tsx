@@ -1,12 +1,17 @@
 import { useContext } from "react"
 import { PlayContext } from "../../app/context"
+import styles from './PlayPage.module.scss'
+import Counter from "./counter/Counter"
+import GuessedLetter from "./guessedLetter/GuessedLetter"
 
 const PlayPage = () => {
     const play = useContext(PlayContext)
+
     return (
-        <>
-        {play.kana.map((e) => <button key={e.char}>{e.char} {e.pronunciation}</button>)}
-        </>
+        <div className={styles.playPage}>
+            <Counter />
+            <GuessedLetter />
+        </div>
     )
 }
 

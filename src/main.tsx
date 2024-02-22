@@ -7,7 +7,9 @@ import PlayContextProvider from './app/context'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <PlayContextProvider>
-      <Router />
+      <div className="w-full min-h-full overflow-hidden p-5">
+        <Router />
+      </div>
     </PlayContextProvider>
   </React.StrictMode>,
 )
