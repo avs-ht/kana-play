@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { PlayContext } from "../../../../app/context"
+import { PlayContext } from "../../../../app/PlayContext"
 
 function conjugateString(n: number): string {
     let message = "Осталось " + n + " символов";
@@ -17,7 +17,7 @@ const Counter = () => {
     const length = play.kana.length
 
     return (
-        <div>{conjugateString(length)}</div>
+        <div className="text-3xl mb-2">{conjugateString(length)}</div>
     )
 }
 

@@ -1,6 +1,6 @@
 const PlayErrorScreen = () => {
     return (
-        <div>
+        <div className="text-3xl">
             Вы не запустили игру или перезагрузили страницу!
         </div>
     )

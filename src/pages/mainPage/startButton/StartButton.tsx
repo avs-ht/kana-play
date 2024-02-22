@@ -3,7 +3,7 @@ import styles from './StartButton.module.scss'
 import kanaAtom from '../settingsSection/kanaAtom'
 import { getJSONCharsByChars } from '../../../shared/logic/kana/kana'
 import { useContext } from 'react'
-import { PlayContext } from '../../../app/context'
+import { PlayContext } from '../../../app/PlayContext'
 import { Link } from 'react-router-dom'
 const StartButton = () => {
     const [kana] = useAtom(kanaAtom)

@@ -1,0 +1,30 @@
+.statWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    .upperPart {
+        min-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 20px;    
+        button {
+            padding: 5px 20px;
+            background-color: orange;
+            border-radius: 10px;
+        }
+        span {
+            display: block;
+            text-align: center;
+            font-size: clamp(1rem, 5vw, 1.2rem);
+        }
+    }
+    @media (max-width: 600px) {
+        width: 100%;
+        padding: 10px 5px;
+    }
+}
