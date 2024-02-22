@@ -12,8 +12,10 @@
         &:not(:last-child) {
             border-right: 2px solid black;
         }
-        &:hover {
-            background-color: white;
+        @media (pointer: coarse) {
+            &:hover {
+                background-color: white;
+            }
         }
         &[disabled]:hover {
             background: none;

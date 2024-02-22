@@ -11,5 +11,8 @@
 
     @media (max-width: 768px) {
         padding-inline: 0px;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 5px;
+        padding-inline: 5px;
     }
 }

@@ -8,4 +8,8 @@
         background-color: rgb(238, 195, 116) !important;
         border-color: #1d1d1db2;
     }
+    &[data-disabled="true"] {
+        pointer-events: none;
+        background-color: rgb(133, 103, 48) !important;
+    }
 }
