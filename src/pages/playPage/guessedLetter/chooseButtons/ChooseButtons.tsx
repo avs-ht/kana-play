@@ -18,7 +18,7 @@ const ChooseButtons: React.FC<ChooseButtonsProps> = ({char, setNewNumber, extRan
     let kanaWithoutChar = getKana().filter((el) => el.pronunciation !== char.pronunciation)
 
 
-    const randomNumber = Math.floor(Math.random() * 3)
+    const randomNumber = Math.floor(Math.random() * 3.9)
     const currChar = play.kana[extRandomNumber]
 
     function rightClickButton() {
