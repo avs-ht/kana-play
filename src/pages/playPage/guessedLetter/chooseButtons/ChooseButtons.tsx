@@ -1,6 +1,6 @@
 import React, { useContext, useRef } from 'react'
 import { PlayContext } from '../../../../app/PlayContext'
-import { KANA } from '../../../../shared/kana/kana'
+import { KANA, getKana } from '../../../../shared/kana/kana'
 import { KanaJSON } from '../../../../shared/types/kana'
 import styles from './ChooseButtons.module.scss'
 import { StatContext, statObject } from '../../../../app/StatisticsContext'
@@ -15,7 +15,7 @@ const ChooseButtons: React.FC<ChooseButtonsProps> = ({char, setNewNumber, extRan
     const stat = useContext(StatContext)
     const attempts = useRef<{[key in string]: number}>({})
     const buttons = useRef<HTMLDivElement>(null)
-    let kanaWithoutChar = [...KANA.hiragana, ...KANA.katakana].filter((el) => el.pronunciation !== char.pronunciation)
+    let kanaWithoutChar = getKana().filter((el) => el.pronunciation !== char.pronunciation)
 
 
     const randomNumber = Math.floor(Math.random() * 3)

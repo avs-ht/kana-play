@@ -27,8 +27,7 @@ export const getJSONCharsByChars: (chars: Kana) => KanaJSON[] = (chars) => {
 }
 
 export function getKana(): KanaJSON[] {
-    const kanaArr: KanaJSON[] = []
-    // TODO: get all kana
+    const kanaArr: KanaJSON[] = [...KANA.hiragana, ...KANA.katakana]
     return kanaArr
 }
 
