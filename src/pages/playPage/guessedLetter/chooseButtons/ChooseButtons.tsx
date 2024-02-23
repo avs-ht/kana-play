@@ -15,7 +15,7 @@ const ChooseButtons: React.FC<ChooseButtonsProps> = ({char, setNewNumber, extRan
     const stat = useContext(StatContext)
     const attempts = useRef<{[key in string]: number}>({})
     const buttons = useRef<HTMLDivElement>(null)
-    let kanaWithoutChar = [...KANA.hiragana, ...KANA.katakana].filter((el) => el.char !== char.char)
+    let kanaWithoutChar = [...KANA.hiragana, ...KANA.katakana].filter((el) => el.pronunciation !== char.pronunciation)
 
 
     const randomNumber = Math.floor(Math.random() * 3)
@@ -67,8 +67,13 @@ const ChooseButtons: React.FC<ChooseButtonsProps> = ({char, setNewNumber, extRan
                     const isRightButton = el === randomNumber
                     const pron =  isRightButton ? char : kanaWithoutChar[random]
                     const onClickFunc = isRightButton ? rightClickButton : wrongClickButton
-                    kanaWithoutChar = [...kanaWithoutChar.slice(0, random), ...kanaWithoutChar.slice(random+1)]
-                    
+
+                    kanaWithoutChar = kanaWithoutChar.filter((char) => {
+                        return char.pronunciation !== pron.pronunciation
+                    })
+
+                    console.log(kanaWithoutChar)
+
                     let isSmalled = false
                     if (pron.pronunciation.includes('/')) {
                         isSmalled = true

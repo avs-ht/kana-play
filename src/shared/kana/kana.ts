@@ -32,4 +32,5 @@ export function getKana(): KanaJSON[] {
     return kanaArr
 }
 
+
 export default kana
