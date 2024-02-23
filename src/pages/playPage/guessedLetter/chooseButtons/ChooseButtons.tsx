@@ -1,6 +1,6 @@
 import React, { useContext, useRef } from 'react'
 import { PlayContext } from '../../../../app/PlayContext'
-import { KANA, getKana } from '../../../../shared/kana/kana'
+import { getKana } from '../../../../shared/kana/kana'
 import { KanaJSON } from '../../../../shared/types/kana'
 import styles from './ChooseButtons.module.scss'
 import { StatContext, statObject } from '../../../../app/StatisticsContext'
